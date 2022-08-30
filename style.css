@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  background: black;
+  grid-template-columns: 1.2em 1fr 1.2em;
+}
+
+/* ===========
+  Typography
+========== */
+h2 {
+  font-size: 1.7rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #969fad;
+}
+
+h2,
+.submit-button {
+  color: #ffffff;
+}
+
+h2,
+.number-selection {
+  grid-row: 3;
+}
+
+.thank-you-title,
+.feedback-paragraph {
+  grid-row: 4;
+}
+
+.number-selection {
+  color: #fc7614;
+  border-radius: 30px;
+  justify-self: center;
+  padding: 0.5em 1em;
+}
+
+.thank-you-title,
+.number-selection,
+.thank-you-message {
+  text-align: center;
+}
+
+.thank-you-title,
+.number-selection {
+  align-self: center;
+}
+
+.icon-star,
+.number-selection,
+.rating {
+  background: #262e38;
+}
+
+.icon-star {
+  border-radius: 50%;
+  padding: 1em;
+}
+
+.reviews-buttons,
+.thank-you-message {
+  grid-row: 5;
+}
+
+.icon-star,
+.phone-img {
+  grid-row: 2;
+}
+
+.phone-img {
+  justify-self: center;
+  margin-bottom: 2em;
+}
+
+.icon-star,
+.feedback-question,
+.feedback-paragraph,
+.reviews-buttons,
+.submit-button,
+.phone-img,
+.number-selection,
+.thank-you-title,
+.thank-you-message {
+  grid-column: 2 / -2;
+}
+
+/* === buttons === */
+
+button {
+  border: none;
+}
+
+.rating {
+  color: #7c8798;
+  border-radius: 50%;
+  padding: 15px 20px;
+  justify-self: center;
+  align-self: center;
+}
+
+.reviews-buttons {
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 10px;
+  margin-bottom: 0.5em;
+}
+
+.number1 {
+  grid-column: 1;
+}
+
+.number2 {
+  grid-column: 2;
+}
+
+.number3 {
+  grid-column: 3;
+}
+
+.number4 {
+  grid-column: 4;
+}
+
+.number5 {
+  grid-column: 5;
+}
+
+.submit-button {
+  background: #fc7614;
+  grid-row: 6;
+  border-radius: 30px;
+}
+
+.submit-button:hover,
+.rating:hover,
+.submit-button:active,
+.rating:active {
+  cursor: pointer;
+}
+
+.submit-button:hover,
+.submit-button:active {
+  background: #ffffff;
+  color: #fc7614;
+}
+
+.rating:hover,
+.rating:active {
+  background: #fc7614;
+  color: #fff;
+}
+
+.highlight {
+  background: #7c8798;
+  color: #fff;
+}
+
+/* ===========
+  Layout
+========== */
+
+body,
+.container,
+.reviews-buttons {
+  display: grid;
+}
+
+.container {
+  background: linear-gradient(#232a34, #181e27);
+  margin: 100px auto;
+  max-width: 412px;
+  border-radius: 15px;
+  grid-column: 2;
+  grid-template: 1.2em 1fr 50px repeat(2, 1fr) 50px 1.2em / 1.2em 1fr 1.2em;
+  grid-row-gap: 10px;
+}
