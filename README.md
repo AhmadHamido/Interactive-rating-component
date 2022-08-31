@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/AhmadHamido/Interactive-rating-component]
-- Live Site URL: []
+- Live Site URL: [https://630f2db014c7c803a5fb28e7--charming-sprinkles-e83408.netlify.app/]
 
 ## My process
 
