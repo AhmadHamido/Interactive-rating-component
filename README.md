@@ -74,6 +74,6 @@ While getting more confident each day in javascript through practice, I'm alread
 
 ## Author
 
-- Website - [Ahmad Hamido](https://www.your-site.com)
+- Website - [Ahmad Hamido]([https://www.your-site.com](https://630f2db014c7c803a5fb28e7--charming-sprinkles-e83408.netlify.app/))
 - Frontend Mentor - [@AhmadHamido](https://www.frontendmentor.io/profile/AhmadHamido)
 - Twitter - [@thereapermma91](https://www.twitter.com/thereapermma91)
